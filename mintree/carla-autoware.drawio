@@ -1,1 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T00:55:15.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.0" etag="q-HVhFTd14KNzfEKS324" type="github"><diagram id="FwCc12vlFQ-yDMwzpfPs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-22T03:29:17.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ximg7Pp7oXQnsapJaSKy" version="14.8.0" type="github">
+  <diagram id="FwCc12vlFQ-yDMwzpfPs" name="Page-1">
+    <mxGraphModel dx="1038" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="20000" pageHeight="20000" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-1" value="/carla" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="9150" y="9400" width="350" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-2" value="/carla/ego_vehicle" style="swimlane;" vertex="1" parent="BKH2mTaB3tx23oni-Hgr-1">
+          <mxGeometry x="20" y="30" width="310" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-3" value="/carla/ego_vehicle/camera/rgb/front/camera_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BKH2mTaB3tx23oni-Hgr-2">
+          <mxGeometry x="10" y="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-4" value="/carla/ego_vehicle/vehicle_status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BKH2mTaB3tx23oni-Hgr-2">
+          <mxGeometry x="10" y="80" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-5" value="/carla/ego_vehicle/camera/rgb/front/image_color" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BKH2mTaB3tx23oni-Hgr-2">
+          <mxGeometry x="10" y="130" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-6" value="&lt;span&gt;/carla/ego_vehicle/lidar/lidar1/point_cloud&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BKH2mTaB3tx23oni-Hgr-2">
+          <mxGeometry x="10" y="180" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-7" value="&lt;span&gt;/carla/ego_vehicle/odometry&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BKH2mTaB3tx23oni-Hgr-2">
+          <mxGeometry x="10" y="230" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-8" value="/carla/ego_vehicle/vehicle_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BKH2mTaB3tx23oni-Hgr-2">
+          <mxGeometry x="10" y="280" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-9" value="/carla/ego_vehicle/vehicle_control_cmd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BKH2mTaB3tx23oni-Hgr-2">
+          <mxGeometry x="10" y="320" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-24" value="&lt;span&gt;/carla/ego_vehicle/ackermann_cmd&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BKH2mTaB3tx23oni-Hgr-2">
+          <mxGeometry x="10" y="370" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-10" target="BKH2mTaB3tx23oni-Hgr-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="8883" y="9475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-10" target="BKH2mTaB3tx23oni-Hgr-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="8940" y="9525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-10" target="BKH2mTaB3tx23oni-Hgr-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="8997" y="9575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-10" target="BKH2mTaB3tx23oni-Hgr-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="8997" y="9675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-10" target="BKH2mTaB3tx23oni-Hgr-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="9020" y="9625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-10" target="BKH2mTaB3tx23oni-Hgr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-10" value="/carla_ros_bridge" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8860" y="9582.5" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-19" target="BKH2mTaB3tx23oni-Hgr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-19" value="/carla_to_autoware_vehicle_status" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9650" y="9627.5" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-20" value="/vehicle_status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9940" y="9624" width="150" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-4" target="BKH2mTaB3tx23oni-Hgr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-8" target="BKH2mTaB3tx23oni-Hgr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-25" target="BKH2mTaB3tx23oni-Hgr-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="9684" y="9765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-25" value="/carla_ackermann_cotrol_ego_vehicle" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9650" y="9770" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-9" target="BKH2mTaB3tx23oni-Hgr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-24" target="BKH2mTaB3tx23oni-Hgr-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="9470" y="9824" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-30" target="BKH2mTaB3tx23oni-Hgr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-30" value="/vehiclecmd_to_ackermanndrive" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9660" y="9850" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BKH2mTaB3tx23oni-Hgr-32" target="BKH2mTaB3tx23oni-Hgr-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKH2mTaB3tx23oni-Hgr-32" value="决策部分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="9970" y="9860" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
